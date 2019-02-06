@@ -1,16 +1,18 @@
-import string
-
-ALPHABET = list(string.ascii_lowercase)
+ALPHABET = dict()
 n = input()
 
-for x in set(input().lower()):
-        ALPHABET.remove(x)
+for x in input().lower():
+        ALPHABET[ord(x) - ord('a')] = True
 
-if len(ALPHABET):
+i = 0
+for x in ALPHABET:
+    if ALPHABET[x] == True: i += 1
+
+if i != 26:
     print("NO")
 else:
     print("YES")
 
-# print(ALPHABET)
+# print(i)
 
 # TheQuickBrownFoxJumpsOverTheLazyDog

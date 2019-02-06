@@ -41,3 +41,6 @@ TheQuickBrownFoxJumpsOverTheLazyDog
 Скопировать
 
 YES
+
+First solution took 155 ms and 796 KB
+Second one took 109 ms and 12 KB
