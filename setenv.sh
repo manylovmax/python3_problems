@@ -1,2 +1,2 @@
 #!/bin/bash
-. /home/user/.virtualenvs/codeforces/bin/activate
+. $HOME/.virtualenvs/codeforces/bin/activate
