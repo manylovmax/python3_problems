@@ -27,7 +27,7 @@ cur_seq_len = 0
 
 for x in numbers:
 	if x == 1:
-		cur_seq_len +=1
+		cur_seq_len += 1
 		continue
 	max_seq_len = max(max_seq_len, cur_seq_len)
 	cur_seq_len = 0
