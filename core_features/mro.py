@@ -1,3 +1,4 @@
+# Blog post on Python MRO by by Guido van Rossum http://python-history.blogspot.com/2010/06/method-resolution-order.html
 # C3 linearization (see https://en.wikipedia.org/wiki/C3_linearization)
 
 #  L(O)  := [O]                                                // the linearization of O is trivially the singleton list [O], because O has no parents
