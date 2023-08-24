@@ -28,11 +28,11 @@
 #
 
 n = int(input())
-numbers = [int(input())]
+numbers = list()
 
-for i in range(n-1):
+for i in range(n):
     next_value = int(input())
-    if numbers[-1] == next_value:
+    if numbers and numbers[-1] == next_value:
         continue
     else:
         numbers.append(next_value)
